@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css or your CSS file */
+.bg-fixed {
+  background-attachment: fixed; /* Ensures the background image stays fixed */
+}
+
+.bg-cover {
+  background-size: cover; /* Ensures the image covers the entire area */
+}
+
+.bg-center {
+  background-position: center; /* Centers the background image */
+}
+/* Hide default slick arrows */
+.slick-prev:before,
+.slick-next:before {
+  content: '';
+}
+html {
+  scroll-behavior: smooth;
+}
